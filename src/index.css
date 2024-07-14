@@ -9,6 +9,17 @@ body {
   margin: 0;
 }
 
+body::after {
+  background-color: hsl(195deg, 20%, 86%);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  content: '';
+  top: 60%;
+  display: inline-block;
+  z-index: -1;
+}
+
 *,
 *:before,
 *:after {
